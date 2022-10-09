@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Lisiting Rules</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-100">
+    <header class="md:px-20 px-5">
+      <div class="flex justify-between h-20 mx-auto items-center sticky top-0">
+        <div class="flex justify-between items-center">
+          <h1 class="w-full text-2xl font-bold ml-3">Listing Rules</h1>
+          <p class="ml-3 text-gray-400 text-sm hide">(9)</p>
+          <p class="ml-3 hide">Sort</p>
+          <span class="ml-3 mr-2 hide">Status</span
+          ><span class="hide"
+            ><i class="fa-sharp fa-solid fa-chevron-down"></i
+          ></span>
+        </div>
+        <div class="flex justify-between items-center">
+          <p class="ml-2 filter hide">Filter</p>
+          <a href="#" class="blue-btn hide">Add Rule</a>
+        </div>
+        <div class="show"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </header>
+    <section class="md:px-20 px-5">
+      <div>
+        <div class="flex justify-items-end md:items-center">
+          <div class="md:w-1/2 w-full">
+            <p class="uppercase text-gray-400">Listing</p>
+          </div>
+          <div
+            class="flex items-center md:justify-items-end justify-between md:w-1/2 w-full text-gray-400 text-sm"
+          >
+            <p class="uppercase hide">Brand</p>
+            <p class="uppercase hide">Accounting</p>
+            <p class="uppercase">Status</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-20 px-5 mt-4">
+      <div class="card-bg">
+        <div class="flex justify-items-end items-center mt-5 p-3">
+          <div class="w-1/2 text-sm">
+            <div class="flex flex-col md:flex-row md:items-center items-start">
+              <img src="./img/house.jpg" alt="" class="img" />
+              <div class="md:ml-2">
+                <p class="font-bold">Flow House Ambassadors</p>
+                <p class="text-gray-400">8th Avenue Street, Association CA</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-between w-1/2 text-gray-400 text-sm"
+          >
+            <div class="flex flex-col">
+              <div class="hide">
+                <span
+                  ><i
+                    class="fa-brands fa-airbnb text-red-500 text-md mr-1 font-extrabold"
+                  ></i></span
+                ><span class="text-red-500 font-bold text-md">airbnb</span>
+              </div>
+              <p class="hide">John Webber</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="hide">
+                <span></span
+                ><span class="text-green-500 font-bold text-md">Xero</span>
+              </div>
+              <p class="hide">Flow Enterprises PLC</p>
+            </div>
+            <p class="uppercase"><i class="fa-light fa-square-check"></i></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-20 px-5 mt-4 mb-4">
+      <div class="card-bg">
+        <div class="flex justify-items-end items-center mt-5 p-3">
+          <div class="w-1/2 text-sm">
+            <div class="flex flex-col md:flex-row items-start md:items-center">
+              <img src="./img/house.jpg" alt="" class="img" />
+              <div class="md:ml-2">
+                <p class="font-bold">Flow House Ambassadors</p>
+                <p class="text-gray-400">8th Avenue Street, Association CA</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-between w-1/2 text-gray-400 text-sm"
+          >
+            <div class="flex flex-col">
+              <div class="hide">
+                <span>
+                  <i
+                    class="fa-brands fa-airbnb text-red-500 text-md mr-1 font-extrabold"
+                  ></i></span
+                ><span class="text-red-500 font-bold text-md">airbnb</span>
+              </div>
+              <p class="hide">John Webber</p>
+            </div>
+            <div class="flex flex-col">
+              <div class="hide">
+                <span></span
+                ><span class="text-green-500 font-bold text-md">Xero</span>
+              </div>
+              <p class="hide">Flow Enterprises PLC</p>
+            </div>
+            <p class="uppercase"><i class="fa-light fa-square-check"></i></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

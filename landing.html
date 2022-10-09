@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Himalayas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-200">
+    <header class="md:px-18 px-5">
+      <div class="flex justify-between h-20 mx-auto items-center sticky top-0">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center text-purple-800">
+            <span><i class="fa-solid fa-cloud"></i></span>
+            <span>
+              <h1 class="w-full text-xl font-bold ml-3">himalayas</h1></span
+            >
+          </div>
+        </div>
+        <div class="flex justify-between items-center text-sm">
+          <p class="ml-3 filter hide">home</p>
+          <p class="ml-3 filter hide">career advice</p>
+          <p class="ml-3 hide">updates</p>
+          <span class="ml-3 mr-2 hide">jobs</span
+          ><span class="hide"
+            ><i class="fa-sharp fa-solid fa-chevron-down text-sm"></i
+          ></span>
+          <span class="ml-3 mr-2 hide">companies</span
+          ><span class="hide"
+            ><i class="fa-sharp fa-solid fa-chevron-down text-sm"></i
+          ></span>
+          <img src="./img/woman.jpg" alt="" class="woman" />
+        </div>
+        <div class="show"><i class="fa-solid fa-bars"></i></div>
+      </div>
+    </header>
+    <section class="md:px-20 px-5 my-16">
+      <div class="flex">
+        <div class="flex flex-col w-text">
+          <h2 class="text-3xl text-purple-800 leading-10 pb-5">
+            find the most exciting remote-friendly jobs
+          </h2>
+          <p class="text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            maxime aspernatur ratione, quia mollitia non eos architecto possimus
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-20 px-5 mb-10">
+      <div class="flex justify-between card2-bg">
+        <div>
+          <span><i class="fa-solid fa-magnifying-glass"></i></span
+          ><span class="ml-3 text-sm">job title and keyword</span>
+        </div>
+        <div class="hide">
+          <span><i class="fa-regular fa-location-dot"></i></span
+          ><span class="ml-3">anywhere</span>
+        </div>
+        <div>
+          <span class="hide">jobs</span
+          ><span
+            ><i
+              class="fa-thin fa-arrow-up-right-and-arrow-down-left-from-center ml-3"
+            ></i
+          ></span>
+          <a href="#" class="purple-btn">Search</a>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-20 px-5 mt-16">
+      <p class="text-li text-purple-500">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+        asperiores?
+      </p>
+      <div class="flex justify-between mt-4 font-extrabold flex-wrap">
+        <div class="flex items-center text-purple-500">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <p class="ml-2">Basecamp</p>
+        </div>
+        <div class="flex items-center text-purple-500">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <p class="ml-2">Abstract</p>
+        </div>
+        <div class="flex items-center text-purple-500">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <p class="ml-2">Buffer</p>
+        </div>
+        <div class="flex items-center text-purple-500">
+          <i class="fa-sharp fa-solid fa-circle-check"></i>
+          <p class="ml-2">Notion</p>
+        </div>
+        <div class="flex items-center text-purple-500">
+          <i class="fa-brands fa-facebook"></i>
+          <p class="ml-2">facebook</p>
+        </div>
+        <div class="flex items-center text-purple-500">
+          <p class="ml-2">webflow</p>
+        </div>
+        <div class="flex items-center text-purple-500">
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </section>
+    <section class="md:px-20 px-5 mt-20 mb-6">
+      <div>
+        <div class="flex flex-wrap justify-center">
+          <div class="purple-card ml-5">
+            <div class="flex text-sm justify-between">
+              <p class="">customer service</p>
+              <p class="purple-text">30 jobs</p>
+            </div>
+            <p class="text-li mt-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              pariatur.
+            </p>
+          </div>
+          <div class="purple-card ml-5">
+            <div class="flex text-sm justify-between">
+              <p class="">customer service</p>
+              <p class="purple-text">30 jobs</p>
+            </div>
+            <p class="text-li mt-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              pariatur.
+            </p>
+          </div>
+          <div class="purple-card ml-5">
+            <div class="flex text-sm justify-between">
+              <p class="">customer service</p>
+              <p class="purple-text">30 jobs</p>
+            </div>
+            <p class="text-li mt-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo,
+              pariatur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
